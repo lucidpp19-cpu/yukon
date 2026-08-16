@@ -53,7 +53,8 @@ let config = {
         client: {
             overlay: false
         },
-        host: 'localhost',
+        host: '0.0.0.0',
+        allowedHosts: 'all',
         port: 8080,
         hot: false
     },
